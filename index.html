@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pra.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <nav>
+            library
+            </nav>
+            <div class="log-in">
+                <button class="log" id="login-btn">Log in</button>
+            </div>
+    
+        </div>
+<div id="book-container"></div>
+<div class="add-book">
+    <button id="new-book-btn" class="button">+ Add book</button></div>
+
+<!-- Modal Window -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Add New Book</h2>
+    <form id="new-book-form">
+             <h2>Add new book</h2>
+                
+                <input type="text" id="title" name="title" required placeholder="Tittle">
+                
+                
+                <input type="text" id="author" name="author" required placeholder="Author">
+
+                  
+                <input class="pages" type="number" id="pages" name="pages" required placeholder="pages">
+                
+                
+
+                   <div class="haveRead"> Have you read it?
+                    <input type="checkbox" id="read" name="haveRead" required></div>
+                   
+                  
+                  <br><br>
+                  
+
+                
+                
+                <input type="submit" value="Submit">
+              
+              
+          </form>
+  </div>
+</div>
+<script src="pra.js"></script>
+</body>
+</html>
